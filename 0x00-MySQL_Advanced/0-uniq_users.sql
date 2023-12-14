@@ -1,5 +1,5 @@
 --The script creates a table users with, id, email and name.
--- id is integer(never null), email string(never null and unique), name string(255 characters). 
+--id is integer(never null), email string(never null and unique), name string(255 characters). 
 
 DROP TABLE IF EXISTS users;
 CREATE TABLE users (
