@@ -1,5 +1,5 @@
--- This SQL script creates the 'users' table with 'id', 'email' and 'name' columns, where 'id' is the primary key and auto-increment,
--- 'email' is unique and not null, and 'name' is not null. The script will first check if table already exists and drop it if it does, before creating a new table.
+--The script creates a table users with, id, email and name.
+-- id is integer(never null), email string(never null and unique), name string(255 characters). 
 
 DROP TABLE IF EXISTS users;
 CREATE TABLE users (
